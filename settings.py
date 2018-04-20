@@ -3,7 +3,7 @@ class BaseSettings:
 
     USERS = ()
     PROXIES = ()
-    CONF_CODE = ""
+    CONF_CODE = "6b8fb68c"
     SCOPE = 140489887
     APP_ID = 5982451
     CAPTCHA_KEY = ""
