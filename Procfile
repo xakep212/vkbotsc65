@@ -1,2 +1,1 @@
-web: bot.py
-worker: python3 bot_runner.py
+worker: python3.6 bot_runner.py
