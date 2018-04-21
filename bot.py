@@ -8,6 +8,7 @@ from asyncio import Future, Task
 
 import time
 from aiohttp import web
+from os import environ
 from os import getenv
 
 from handler.handler_controller import MessageHandler
@@ -264,7 +265,7 @@ class Bot:
 
     def callback_run(self, custom_process=False):
         host = getenv('IP', '127.0.0.1')
-        port = int(getenv('PORT', 8000))
+        application.listen(environ["PORT"])
 
         self.logger.info("Started to process messages")
 
