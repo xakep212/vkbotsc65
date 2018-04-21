@@ -264,7 +264,7 @@ class Bot:
 
     def callback_run(self, custom_process=False):
         host = getenv('IP', '127.0.0.1')
-        port = int(getenv('PORT', 8000))
+        port = int(getenv('PORT', $PORT))
 
         self.logger.info("Started to process messages")
 
