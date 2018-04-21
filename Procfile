@@ -1,1 +1,1 @@
-worker: python3.6 bot_runner.py
+web: python3 bot.py runserver 0.0.0.0:$PORT
