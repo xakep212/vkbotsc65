@@ -1,1 +1,1 @@
-web: python3 bot.py runserver 127.0.0.1:8000
+worker: python3 bot.py 
